@@ -68,78 +68,27 @@ article p:last-of-type {
 	}
 
 
-
-/* Modifications to Page One / Fixed Position Layout */
-
-aside.one {
-	position: fixed;
-	left: 0;
-	width: 160px;
-	padding: 0 .4em;
-	}
-
-div.articles1 {
-	position: fixed;
-	left: 160px;
-	height: 400px;
-	width: 750px;
-	padding: 0 .2em;
-	overflow: scroll;
-	}
-
-img.body1 {
-	width: 300px;
-	}
-
-/* Modifications to Page Two / Floating Position Layout */
-
-aside.two {
-	float: left;
-	min-width: 130px;
-	}
-
-div.articles2 {
-	min-height: 400px;
-	min-width: 350px;
-	padding: 0 30px;
-	overflow: scroll;
-	}
-	
-.left2 {
-	float: left;
-	margin: 10px 35px 10px 0px;
-	width: 170px;
-	}
-
-.right2 {
-	float: right;
-	margin: 10px 0px 10px 35px;
-	width: 170px;
-	}
-
-
-
 /* Modifications to Page Three / Relative Position Layout */
 
-aside.three {
+aside {
 	float: left;
 	min-width: 130px;
 	}
 
-div.articles3 {
+div.articles {
 	min-height: 400px;
 	min-width: 350px;
 	padding: 0 1em;
 	overflow: scroll;
 	}
 
-.right3 {
+right {
 	float: right;
 	margin: 1em 0em 1em 2em;
 	width: 25%;
 	}
 
-.left3 {
+left {
 	float: left;
 	margin: 1em 2em 1em 0;
 	width: 25%;
